@@ -31,3 +31,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Memory Bank 
+projectbrief.md
+productContext.md
+activeContext.md
+systemPatterns.md
+techContext.md
+progress.md

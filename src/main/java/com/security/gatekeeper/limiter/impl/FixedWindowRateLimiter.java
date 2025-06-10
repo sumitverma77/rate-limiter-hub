@@ -30,8 +30,6 @@ public class FixedWindowRateLimiter implements RateLimiter {
         if (requestCount.incrementAndGet() > maxRequests) {
             return false;
         }
-
-        windowStartTime = currentTime;
         return true;
     }
 }
